@@ -1,0 +1,401 @@
+*{
+    margin: 0px;
+    padding: 0px;
+}
+body{
+    font-family: 'Nunito Sans', sans-serif;
+    font-size: 14px;
+    line-height: 24px;
+}
+h1, h2, h3, h4, h5, h6{
+    font-family: 'Nunito Sans', sans-serif;
+} 
+a, a:hover{
+    text-decoration: none;
+}
+
+/* section header start */
+
+.header{
+    background-image: url("../images/portfolio-single-3-1.jpg");
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position: center top;
+    width: 100%;  
+    position: relative;
+    z-index: 0;
+}
+.header:after{
+    position: absolute;
+    content: "";
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 100%;
+    z-index: -1;
+    opacity: .60;
+    color: #fff;
+    background: rgba(0, 0, 0, 0.7);
+}
+.main-menu{
+    width: 100%;
+    padding: 20px;
+    font-family: 'Nunito Sans', sans-serif;
+}
+.main-menu .bg-light{
+    background: transparent !important;
+}
+.main-menu .navbar-light .navbar-nav .nav-link{
+    color: #bfbfbf;
+    font-size: 16px;
+    font-weight: 600;
+    margin: 0px 0px 0px 15px;
+    text-transform: capitalize;
+    font-family: 'Nunito Sans', sans-serif;
+    transition: 1s;
+}
+.main-menu .navbar-light .navbar-nav .nav-link:hover{
+    background-size: auto;
+    color: #fff;
+}
+.navbar-light .navbar-nav .nav-link .active{
+    font-family: 'Nunito Sans', sans-serif;
+    color: #bfbfbf;
+    font-weight: 700;
+}
+.navbar-light .navbar-nav .nav-link .active:hover{
+    color: #fff;
+}
+.navbar-light .navbar-toggler {
+    color: #fff;
+    border-color: #fff;
+}
+.fa .fa-bars{
+    color: #fff;
+}
+
+/* section header end */
+
+/* banner-section start */
+
+.banner{
+    width: 100%;
+    padding: 80px 0px 95px;
+}
+.banner h1{
+    font-family: 'Nunito Sans', sans-serif;
+    font-size: 36px;
+    font-weight: 700;
+    line-height: 46px;
+    color: #fff; 
+    margin-bottom: 30px; 
+    text-align: center;
+}
+.banner p{
+    font-family: 'Nunito Sans', sans-serif;
+   color: #fff;
+   font-size: 1.25rem;
+   line-height: 1.85rem;
+   font-weight: 400;
+   text-align: center;
+   margin-bottom: 40px;
+ }
+ .inner-btn{
+    width: 100%;
+    padding-right: 43px;
+    padding-left: 43px;
+    text-align: center;
+ }
+ .banner .btn-info{
+    font-family: 'Nunito Sans', sans-serif;
+    color: #fff;
+    background: #10c9c3;
+    font-size: 16px;
+    font-weight: 500;
+    padding: 15px 35px;
+    text-transform: uppercase;
+    transition: 1s;
+    margin: 0px 25px;
+    border: 0;
+    letter-spacing: 1px;
+
+}
+.banner .btn-info:hover,.banner .btn-info:focus{
+    color: #fff;
+    background: #171717;
+}
+/* banner-section end */
+
+.portfolio{
+    width: 100%;
+    padding: 60px 0px;
+    background: #F6F6F6;
+}
+.portfolio .title{
+    width: 100%;
+    padding: 50px 0px;
+}
+.portfolio .title h2{
+    width: 100%;
+    text-align: center;
+    font-size: 2rem;
+    margin-bottom: 1rem;
+    font-family: 'Nunito Sans', sans-serif;
+    font-weight: 500;
+    color: #171717;
+}
+.portfolio .title P{
+    font-family: 'Nunito Sans', sans-serif;
+    line-height: 1.65;
+    color: #5f5f5f;
+    font-style: italic;
+    text-align: center;
+}
+.portfolio .port-info{
+    width: 100%;
+    padding: 30px 0;
+    padding-bottom: 22px;
+}
+.portfolio .port-info h3{
+    font-family: 'Nunito Sans', sans-serif;
+    width: 100%;
+    font-size: 1.4rem;
+    padding: 20px 10px;
+    text-transform: capitalize;
+    text-align: center;
+    color: #171717;
+    transition: 1s;
+}
+.portfolio .port-info h3:hover{
+    color: #10c9c3;
+}
+.project-section{
+    width: 100%;
+    padding: 40px;
+    background: #F6F6F6;
+}
+.project-section .title{
+    width: 100%;
+    margin-bottom: 80px;
+}
+.project-section .title h2{
+    width: 100%;
+    text-align: center;
+    font-size: 2rem;
+    margin-bottom: 1rem;
+    font-family: 'Nunito Sans', sans-serif;
+    font-weight: 500;
+    color: #171717;
+}
+.project-section .title P{
+    font-family: 'Nunito Sans', sans-serif;
+    line-height: 1.65;
+    color: #5f5f5f;
+    font-style: italic;
+    text-align: center;
+}
+.project-section  .carousel-inner{
+    width: 100%;
+    height: 500px;
+}
+.project-section  .carousel-inner img{
+    width: 100%;
+    height: 500px;
+}
+.portfolio-layouts{
+    background-image: url("../images/promo-bg-1.jpg");
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position: center top;
+    width: 100%; 
+    padding: 0px 0px;
+}
+.portfolio-layouts .title{
+    width: 100%;
+    margin-top: 50px;
+    margin-bottom: 30px;
+}
+.portfolio-layouts .title h2{
+    width: 100%;
+    text-align: center;
+    font-size: 2rem;
+    margin-bottom: 1rem;
+    font-family: 'Nunito Sans', sans-serif;
+    font-weight: 500;
+    color: #171717;
+    padding-top: 15px;
+}
+.portfolio-layouts .title P{
+    font-family: 'Nunito Sans', sans-serif;
+    line-height: 1.65;
+    color: #5f5f5f;
+    font-style: italic;
+    text-align: center;
+}
+.portfolio-layouts .promo-lay img{
+    width: 100%;
+    height: auto;
+}
+.functional-page{
+    width: 100%;
+    padding: 60px 0px;
+    background: #F6F6F6;
+}
+.functional-page .title{
+    width: 100%;
+    margin-top: 50px;
+    margin-bottom: 40px;
+}
+.functional-page .title h2{
+    width: 100%;
+    text-align: center;
+    font-size: 2rem;
+    margin-bottom: 1rem;
+    font-family: 'Nunito Sans', sans-serif;
+    font-weight: 500;
+    color: #171717;
+    padding-top: 15px;
+}
+.functional-page .title P{
+    font-family: 'Nunito Sans', sans-serif;
+    line-height: 1.65;
+    color: #5f5f5f;
+    font-style: italic;
+    text-align: center;
+}
+.functional-page .page-info{
+    width: 100%;
+    padding: 30px 0;
+    padding-bottom: 22px;
+}
+.functional-page .page-info h3{
+    font-family: 'Nunito Sans', sans-serif;
+    width: 100%;
+    font-size: 1.4rem;
+    padding: 20px 10px;
+    text-transform: capitalize;
+    text-align: center;
+    color: #171717;
+    transition: 1s;
+}
+.functional-page .page-info h3:hover{
+    color: #10c9c3;
+}
+.modern-header{
+    width: 100%;
+    background: #f6f6f6;
+}
+.modern-header .title{
+    width: 100%;
+    margin-bottom: 60px;
+}
+.modern-header .title h2{
+    width: 100%;
+    text-align: center;
+    font-size: 2rem;
+    margin-bottom: 1rem;
+    font-family: 'Nunito Sans', sans-serif;
+    font-weight: 500;
+    color: #171717;
+    padding-top: 15px;
+}
+.modern-header .title P{
+    font-family: 'Nunito Sans', sans-serif;
+    line-height: 1.65;
+    color: #5f5f5f;
+    font-style: italic;
+    text-align: center;
+}
+.modern-header .head-logo{
+    width: 100%;
+    padding: 30px 0;
+    padding-bottom: 22px;
+}
+.modern-header .head-logo h3{
+    font-family: 'Nunito Sans', sans-serif;
+    width: 100%;
+    font-size: 1.4rem;
+    padding: 20px 10px;
+    text-transform: capitalize;
+    text-align: center;
+    color: #171717;
+    transition: 1s;
+}
+.modern-header .head-logo h3:hover{
+    color: #10c9c3;
+}
+.piroll-banner{
+    background-image: url("../images/promo-bg-2.jpg");
+    background-repeat: no-repeat;
+    background-size: cover;
+    color: #171717;
+    position: relative;
+    z-index: 0;
+    color: #fff;
+    padding: 80px 0px;
+}
+.piroll-banner:after{
+    position: absolute;
+    content: "";
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 100%;
+    z-index: -1;
+    opacity: .60;
+    color: #fff;
+    background: rgba(0, 0, 0, 0.7);
+}
+.piroll-banner h1{
+    font-family: 'Nunito Sans', sans-serif;
+    font-size: 36px;
+    font-weight: 700;
+    line-height: 46px;
+    color: #fff !important; 
+    margin-bottom: 30px; 
+    text-align: center;
+}
+.piroll-banner p{
+   font-family: 'Nunito Sans', sans-serif;
+   color: #ffff !important;
+   font-size: 1.25rem;
+   line-height: 1.85rem;
+   font-weight: 400;
+   text-align: center;
+   margin-bottom: 40px;
+ }
+ .piroll-banner .inner-btn{
+    width: 100%;
+    padding-right: 43px;
+    padding-left: 43px;
+    text-align: center;
+ }
+ .piroll-banner .btn-info{
+    font-family: 'Nunito Sans', sans-serif;
+    color: #fff;
+    background: #10c9c3;
+    font-size: 16px;
+    font-weight: 500;
+    padding: 15px 35px;
+    text-transform: uppercase;
+    transition: 1s;
+    margin: 0px 25px;
+    border: 0;
+    letter-spacing: 1px;
+}
+.piroll-banner .btn-info:hover,.banner .btn-info:focus{
+    color: #fff;
+    background: #171717;
+}
+.footer-section{
+    width: 100%;
+    padding: 35px 0px;
+    background: #191919;
+    text-align: center;
+}
+.footer-section  p{
+    font-size: 14px;
+    color: #999999;
+    margin-bottom: 0px;
+    font-weight: 600;
+}

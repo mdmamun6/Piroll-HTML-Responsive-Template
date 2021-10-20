@@ -1,0 +1,605 @@
+/* 
+  ##Device = Most of the Smartphones Mobiles (Portrait)
+  ##Screen = B/w 280px to 319px
+*/
+
+@media (min-width: 280px) and (max-width: 319px) {
+  
+    /* CSS */
+    .navbar-light .navbar-nav .nav-link.active{
+        font-size: 14px;
+    }
+    .main-menu .navbar-light .navbar-nav .nav-link{
+        font-size: 14px;   
+    }
+    .banner{
+        padding: 25px 0px 35px ;   
+    }
+    .banner h1{
+        font-size: 22px;
+        line-height: 32px;
+    }
+    .banner p{
+       font-size: 14px;
+       line-height: 24px;
+       margin-bottom: 10px;
+    }
+    .inner-btn {
+        padding: 15px 0px 0px 0px;
+    }
+    .banner .btn-info{
+        font-size: 10px;
+        padding: 10px 8px;
+    }
+    .portfolio {
+        width: 100%;
+        padding: 0px 0px;
+    }
+    .portfolio .title {
+        width: 100%;
+        padding: 40px 0px;
+    }
+    .portfolio .title h2{
+        font-size: 22px;
+        line-height: 32px;
+        margin-top: 20px;
+    }
+    .portfolio .title p{
+        font-size: 14px;
+       line-height: 24px;
+    }
+    .portfolio .port-info {
+        width: 100%;
+        padding: 0px 0;
+    }
+    .portfolio .port-info h3{
+        font-size: 1.2rem;
+    }
+    .project-section {
+        padding: 20px 0px;
+    }
+    .project-section  .title h2{
+        font-size: 22px;
+        line-height: 32px;
+        margin-top: 20px;
+    }
+    .project-section  .title p{
+        font-size: 14px;
+       line-height: 24px;
+    }
+    .portfolio-layouts .title {
+        width: 100%;
+        margin-top: 30px;
+    }
+    .portfolio-layouts  .title h2{
+        font-size: 22px;
+        margin-top: 10px;
+    }
+    .portfolio-layouts  .title p{
+        font-size: 14px;
+       line-height: 24px;
+    }
+    .functional-page {
+        padding: 0px 0px;
+    }
+    .functional-page .title {
+        margin-top: 30px;
+        margin-bottom: 20px;
+    }
+    .functional-page  .title h2{
+        font-size: 22px;
+        margin-top: 10px;
+    }
+    .functional-page  .title p{
+        font-size: 14px;
+       line-height: 24px;
+    }
+    .functional-page .port-info {
+        width: 100%;
+        padding: 0px 0;
+    }
+    .functional-page .port-info h3{
+        font-size: 1.2rem;
+    }
+    .modern-header {
+        padding: 0px 0px;
+    }
+    .modern-header .title {
+        margin-top: 30px;
+        margin-bottom: 20px;
+    }
+    .modern-header  .title h2{
+        font-size: 22px;
+        margin-top: 10px;
+    }
+    .modern-header  .title p{
+        font-size: 14px;
+       line-height: 24px;
+    }
+    .modern-header .head-logo {
+        width: 100%;
+        padding: 0px 0;
+    }
+    .modern-header .head-logo h3{
+        font-size: 1.2rem;
+    }
+    .piroll-banner h1{
+        font-size: 22px;
+        line-height: 32px;
+    }
+    .piroll-banner p{
+       font-size: 14px;
+       line-height: 24px;
+       margin-bottom: 10px;
+    }
+    .piroll-banner .inner-btn {
+        padding: 15px 0px 0px 0px;
+    }
+    .piroll-banner .btn-info{
+        font-size: 10px;
+        padding: 10px 8px;
+    }
+    .footer-section{
+        padding: 25px 0px;
+    }
+    .footer-section  p{
+        font-size: 14px;
+    }
+  }
+/* 
+  ##Device = Most of the Smartphones Mobiles (Portrait)
+  ##Screen = B/w 320px to 479px
+*/
+
+@media (min-width: 320px) and (max-width: 480px) {
+  
+    /* CSS */
+    .navbar-light .navbar-nav .nav-link.active{
+        font-size: 14px;
+    }
+    .main-menu .navbar-light .navbar-nav .nav-link{
+        font-size: 14px;   
+    }
+    .banner{
+        padding: 25px 0px 35px ;   
+    }
+    .banner h1{
+        font-size: 24px;
+        line-height: 34px;
+    }
+    .banner p{
+       font-size: 15px;
+       line-height: 25px;
+       margin-bottom: 10px;
+    }
+    .inner-btn {
+        padding: 25px 0px 0px 0px;
+    }
+    .banner .btn-info{
+        font-size: 10px;
+        padding: 15px 25px;
+    }
+    .portfolio {
+        width: 100%;
+        padding: 0px 0px;
+    }
+    .portfolio .title {
+        width: 100%;
+        padding: 40px 0px;
+    }
+    .portfolio .title h2{
+        font-size: 22px;
+        line-height: 32px;
+        margin-top: 20px;
+    }
+    .portfolio .title p{
+        font-size: 14px;
+       line-height: 24px;
+    }
+    .portfolio .port-info {
+        width: 100%;
+        padding: 0px 0;
+    }
+    .portfolio .port-info h3{
+        font-size: 1.2rem;
+    }
+    .project-section {
+        padding: 20px 0px;
+    }
+    .project-section  .title h2{
+        font-size: 22px;
+        line-height: 32px;
+        margin-top: 20px;
+    }
+    .project-section  .title p{
+        font-size: 14px;
+       line-height: 24px;
+    }
+    .portfolio-layouts .title {
+        width: 100%;
+        margin-top: 30px;
+    }
+    .portfolio-layouts  .title h2{
+        font-size: 22px;
+        margin-top: 10px;
+    }
+    .portfolio-layouts  .title p{
+        font-size: 14px;
+       line-height: 24px;
+    }
+    .functional-page {
+        padding: 0px 0px;
+    }
+    .functional-page .title {
+        margin-top: 30px;
+        margin-bottom: 20px;
+    }
+    .functional-page  .title h2{
+        font-size: 22px;
+        margin-top: 10px;
+    }
+    .functional-page  .title p{
+        font-size: 14px;
+       line-height: 24px;
+    }
+    .functional-page .port-info {
+        width: 100%;
+        padding: 0px 0;
+    }
+    .functional-page .port-info h3{
+        font-size: 1.2rem;
+    }
+    .modern-header {
+        padding: 0px 0px;
+    }
+    .modern-header .title {
+        margin-top: 30px;
+        margin-bottom: 20px;
+    }
+    .modern-header  .title h2{
+        font-size: 22px;
+        margin-top: 10px;
+    }
+    .modern-header  .title p{
+        font-size: 14px;
+       line-height: 24px;
+    }
+    .modern-header .head-logo {
+        width: 100%;
+        padding: 0px 0;
+    }
+    .modern-header .head-logo h3{
+        font-size: 1.2rem;
+    }
+    .piroll-banner h1{
+        font-size: 22px;
+        line-height: 32px;
+    }
+    .piroll-banner p{
+       font-size: 16px;
+       line-height: 24px;
+       margin-bottom: 10px;
+       font-weight: 400;
+    }
+    .piroll-banner .inner-btn {
+        padding: 15px 0px 0px 0px;
+    }
+    .piroll-banner .btn-info{
+        font-size: 14px;
+        padding: 15px 25px;
+    }
+    .footer-section{
+        padding: 30px 0px;
+    }
+    .footer-section  p{
+        font-size: 15px;
+    }
+  }
+  
+  
+  /* 
+    ##Device = Low Resolution Tablets, Mobiles (Landscape)
+    ##Screen = B/w 481px to 767px
+  */
+  
+  @media (min-width: 481px) and (max-width: 767px) {
+    
+    /* CSS */
+    .navbar-light .navbar-nav .nav-link.active{
+        font-size: 14px;
+    }
+    .main-menu .navbar-light .navbar-nav .nav-link{
+        font-size: 15px;   
+    }
+    .banner{
+        padding: 35px 0px 35px ;   
+    }
+    .banner h1{
+        font-size: 32px;
+        line-height: 42px;
+    }
+    .banner p{
+       font-size: 16px;
+       line-height: 26px;
+       margin-bottom: 10px;
+    }
+    .inner-btn {
+        padding: 25px 0px 0px 0px;
+    }
+    .banner .btn-info{
+        font-size: 10px;
+        padding: 15px 25px;
+    }
+    .portfolio {
+        width: 100%;
+        padding: 0px 0px;
+    }
+    .portfolio .title {
+        width: 100%;
+        padding: 60px 0px;
+    }
+    .portfolio .title h2{
+        font-size: 32px;
+        line-height: 42px;
+        margin-top: 20px;
+    }
+    .portfolio .title p{
+        font-size: 16px;
+        line-height: 26px;
+    }
+    .portfolio .port-info {
+        width: 100%;
+        padding: 0px 0;
+    }
+    .portfolio .port-info h3{
+        font-size: 1.4rem;
+    }
+    .project-section {
+        padding: 30px 0px;
+    }
+    .project-section  .title h2{
+        font-size: 32px;
+        line-height: 42px;
+        margin-top: 20px;
+    }
+    .project-section  .title p{
+        font-size: 16px;
+        line-height: 26px;
+    }
+    .portfolio-layouts .title {
+        width: 100%;
+        margin-top: 30px;
+    }
+    .portfolio-layouts  .title h2{
+        font-size: 32px;
+        line-height: 42px;
+        margin-top: 10px;
+    }
+    .portfolio-layouts  .title p{
+        font-size: 16px;
+        line-height: 26px;
+    }
+    .functional-page {
+        padding: 0px 0px;
+    }
+    .functional-page .title {
+        margin-top: 30px;
+        margin-bottom: 20px;
+    }
+    .functional-page  .title h2{
+        font-size: 32px;
+        line-height: 42px;
+        margin-top: 10px;
+    }
+    .functional-page  .title p{
+        font-size: 16px;
+        line-height: 26px;
+    }
+    .functional-page .port-info {
+        width: 100%;
+        padding: 0px 0;
+    }
+    .functional-page .port-info h3{
+        font-size: 1.4rem;
+    }
+    .modern-header {
+        padding: 0px 0px;
+    }
+    .modern-header .title {
+        margin-top: 30px;
+        margin-bottom: 20px;
+    }
+    .modern-header  .title h2{
+        font-size: 32px;
+        line-height: 42px;
+        margin-top: 10px;
+    }
+    .modern-header  .title p{
+        font-size: 16px;
+        line-height: 26px;
+    }
+    .modern-header .head-logo {
+        width: 100%;
+        padding: 0px 0;
+    }
+    .modern-header .head-logo h3{
+        font-size: 1.4rem;
+    }
+    .piroll-banner h1{
+        font-size: 22px;
+        line-height: 32px;
+    }
+    .piroll-banner p{
+        font-size: 16px;
+        line-height: 26px;
+       margin-bottom: 10px;
+    }
+    .piroll-banner .inner-btn {
+        padding: 25px 0px 0px 0px;
+    }
+    .piroll-banner .btn-info{
+        font-size: 10px;
+        padding: 15px 25px;
+    }
+    .footer-section{
+        padding: 35px 0px;
+    }
+    .footer-section  p{
+        font-size: 16px;
+    }   
+  }
+  
+  
+  
+  /* 
+    ##Device = Tablets, Ipads (portrait)
+    ##Screen = B/w 768px to 1024px
+  */
+  
+  @media (min-width: 768px) and (max-width: 1024px) {
+    
+    /* CSS */
+    .navbar-light .navbar-nav .nav-link.active{
+        font-size: 14px;
+    }
+    .main-menu .navbar-light .navbar-nav .nav-link{
+        font-size: 15px;   
+    }
+    .banner{
+        padding: 35px 0px 35px ;   
+    }
+    .banner h1{
+        font-size: 32px;
+        line-height: 42px;
+    }
+    .banner p{
+       font-size: 16px;
+       line-height: 26px;
+       margin-bottom: 10px;
+    }
+    .inner-btn {
+        padding: 25px 0px 0px 0px;
+    }
+    .banner .btn-info{
+        font-size: 10px;
+        padding: 15px 25px;
+    }
+    .portfolio {
+        width: 100%;
+        padding: 0px 0px;
+    }
+    .portfolio .title {
+        width: 100%;
+        padding: 60px 0px;
+    }
+    .portfolio .title h2{
+        font-size: 32px;
+        line-height: 42px;
+        margin-top: 20px;
+    }
+    .portfolio .title p{
+        font-size: 16px;
+        line-height: 26px;
+    }
+    .portfolio .port-info {
+        width: 100%;
+        padding: 0px 0;
+    }
+    .portfolio .port-info h3{
+        font-size: 1.4rem;
+    }
+    .project-section {
+        padding: 30px 0px;
+    }
+    .project-section  .title h2{
+        font-size: 32px;
+        line-height: 42px;
+        margin-top: 20px;
+    }
+    .project-section  .title p{
+        font-size: 16px;
+        line-height: 26px;
+    }
+    .portfolio-layouts .title {
+        width: 100%;
+        margin-top: 30px;
+    }
+    .portfolio-layouts  .title h2{
+        font-size: 32px;
+        line-height: 42px;
+        margin-top: 10px;
+    }
+    .portfolio-layouts  .title p{
+        font-size: 16px;
+        line-height: 26px;
+    }
+    .functional-page {
+        padding: 0px 0px;
+    }
+    .functional-page .title {
+        margin-top: 30px;
+        margin-bottom: 20px;
+    }
+    .functional-page  .title h2{
+        font-size: 32px;
+        line-height: 42px;
+        margin-top: 10px;
+    }
+    .functional-page  .title p{
+        font-size: 16px;
+        line-height: 26px;
+    }
+    .functional-page .port-info {
+        width: 100%;
+        padding: 0px 0;
+    }
+    .functional-page .port-info h3{
+        font-size: 1.4rem;
+    }
+    .modern-header {
+        padding: 0px 0px;
+    }
+    .modern-header .title {
+        margin-top: 0px;
+    }
+    .modern-header  .title h2{
+        font-size: 32px;
+        line-height: 42px;
+        margin-top: 10px;
+    }
+    .modern-header  .title p{
+        font-size: 16px;
+        line-height: 26px;
+        margin-bottom: 10px;
+    }
+    .modern-header .head-logo {
+        width: 100%;
+        padding: 0px 0;
+    }
+    .modern-header .head-logo h3{
+        font-size: 1.4rem;
+    }
+    .piroll-banner h1{
+        font-size: 32px;
+        line-height: 42px;
+    }
+    .piroll-banner p{
+        font-size: 16px;
+        line-height: 26px;
+        margin-bottom: 10px;
+    }
+    .piroll-banner .inner-btn {
+        padding: 25px 0px 0px 0px;
+    }
+    .piroll-banner .btn-info{
+        font-size: 10px;
+        padding: 15px 25px;
+    }
+    .footer-section{
+        padding: 35px 0px;
+    }
+    .footer-section  p{
+        font-size: 16px;
+    }
+   
+  }
